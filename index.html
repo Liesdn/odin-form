@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="content">
+        <div class="leftbox">
+            <div class="img">
+                <div class="logo">
+                    <h1>LIES/DN</h1>
+                </div>
+                <div class="credit">
+                    <p>Photo by <a href="https://unsplash.com/@locreaphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura Cros</a> on <a href="https://unsplash.com/photos/KBT0Ry8Wqe0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="rightbox">
+            <h3 class="header">This is not a real online service! You know you need something like
+                this in your life to help you realize your deepest dreams. <br>Sign up
+                <em>now</em> to get started.</h3>
+            <form action="#">
+                <div class="form">
+                    <div class="leftform">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Jonathan" required>
+                        <label for="user_email">Email Address:</label>
+                        <input type="email" id="user_email" name="email" placeholder="jojo@mail.com" required>
+                        <label for="user_password">Password:</label>
+                        <input type="password" id="user_password" name="password" required>    
+                    </div>
+                    <div class="rightform">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Joestar" required>
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="number" id="phone-number" name="phone-number" placeholder="+391234567890" required>
+                        <label for="user_password">Confirm password:</label>
+                        <input type="password" id="user_password" name="password" required>
+                    </div>
+                </div>
+                <button class="btn">Create Account</button>
+            </form>
+            <p>Already a member? <a href="#"><strong>Log in</strong></a>.</p>
+        </div>
+    </div>
+</body>
+</html>
